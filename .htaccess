@@ -1,0 +1,24 @@
+RewriteEngine on
+
+
+RewriteRule ^$ index.php?telo1=1 [L]
+RewriteRule ^profil-kami\.html$ index.php?module=profilkami&id=$1 [L]
+RewriteRule ^cara-pesan\.html$ index.php?module=carabeli&id=$1 [L]
+RewriteRule ^tiket-(.*)\.html$ index.php?module=detailtiket&id=$1 [L]
+RewriteRule ^keranjang-(.*)\.html$ index.php?module=keranjangbelanja&id=$1 [L]
+RewriteRule ^selesai-(.*)\.html$ index.php?module=selesaibelanja&id=$1 [L]
+RewriteRule ^kategori-([0-9]+)-(.*)\.html$ index.php?module=detailkategori&id=$1 [L]
+RewriteRule ^halkategori-([0-9]+)-(.*)\.html$ index.php?module=detailkategori&id=$1&halkategori=$2 [L]
+RewriteRule ^simpan-transaksi\.html$ index.php?module=simpantransaksi&id=$1 [L]
+RewriteRule ^simpan-transaksi-member\.html$ index.php?module=simpantransaksimember&id=$1 [L]
+RewriteRule ^hubungi-kami\.html$ index.php?module=hubungikami [L]
+RewriteRule ^hubungi-aksi\.html$ index.php?module=hubungiaksi [L]
+RewriteRule ^lupa-password\.html$ index.php?module=lupapassword [L]
+RewriteRule ^kirim-password\.html$ index.php?module=kirimpassword [L]
+RewriteRule ^semua-tiket\.html$ index.php?module=semuatiket [L]
+RewriteRule ^haltiket-(.*)\.html$ index.php?module=semuatiket&haltiket=$1 [L]
+RewriteRule ^hasil-pencarian\.html$ index.php?module=hasilcari&id=$1 [L]
+
+RewriteRule ^download-katalog\.html$ index.php?module=downloadkatalog&id=$1[L]
+
+Options All -Indexes

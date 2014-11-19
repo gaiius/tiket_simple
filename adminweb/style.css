@@ -1,0 +1,133 @@
+body{
+	font-family: Tahoma;
+  text-align: center; 
+  background-color:#C00;
+}
+
+#wrapper{
+	width: 1000px;
+	margin: 15px auto;
+	height: auto;
+	padding: 20px;
+	background-color:#FFF;
+	box-shadow: 0px 0px 20px #F60;
+	-moz-box-shadow: 0px 0px 20px #F60;
+	-webkit-box-shadow: 0px 0px 20px #F60;
+	border-radius: 17px;
+	-webkit-border-radius: 17px;
+}
+#header {
+	position: relative;
+	background-image: url(images/header.jpg);
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	width: 930px;
+	border: 2px solid #265180;
+	padding-top: 70px;
+	text-align: left;
+}
+
+#content {
+	margin-left: 230px;
+	padding: 20px 10px 0 0;
+	margin-bottom:2px;
+	border:1px solid #F95;
+}
+#content p {
+	font-size: 85%;
+	line-height: 1.8em;
+	padding-left: 2em;
+}
+#menu {
+  position: relative;
+  float: left;
+	top: 37px;
+	left: 0;
+	width: 180px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+#menu li {
+	width: 180px;
+	border-bottom: 1px solid #f95;
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	vertical-align: bottom; 
+}
+#menu a:link, #menu a:visited {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 12px solid #f95;
+	border-right: 1px solid #f95;
+	background-color:#F63;
+	color:#000;
+	text-decoration: none;
+}
+#menu a:hover {
+	background-color:#F30;
+	color: #FFFFFF;
+}
+
+a:link,a:visited {
+  color:#265180;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration:none;
+}
+h2 {
+	font:Verdana, Geneva, sans-serif;
+	color:#F30;
+	background-color: transparent;
+	border-bottom: 1px  #265180;
+}
+table {
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size: 10pt;
+	border-width: 2px;
+	border-style: solid;
+	border-color:#F30;
+	border-collapse: collapse;
+	margin: 10px 0px;
+}
+th{
+	color:#000;
+	font-size: 7pt;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 0.5em;
+	border-width: 1px;
+	border-style: solid;
+	border-color:#F30;
+	border-collapse: collapse;
+	background-color:#F60;
+}
+td{
+	padding: 0.5em;
+	vertical-align: top;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #F30;
+	border-collapse: collapse;
+}
+input,textarea,select{
+	font-family: Tahoma; 
+	font-size: 8pt;
+}
+#paging{
+	font-family: Tahoma; 
+	font-size: 8pt; 
+}
+#footer{
+  clear :both;
+	padding: 20px 0 10px 255px;
+	font-size: 70%;
+	color: #FFFFFF;
+	background-color:#F00;
+}
